@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<secureHomeQuestions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" perilCount="3">
+  <peril deviceCount="8" perilType="fire">
+    <device checked="" deviceKey="0" deviceText="Data Share" proof="" />
+    <device checked="" deviceKey="1" deviceText="Connected Fire Alarm" proof="" />
+    <device checked="1" deviceKey="2" deviceText="Professionally Monitored Fire Alarm" proof="" />
+    <device checked="" deviceKey="3" deviceText="Connected and Professionally Monitored Fire Alarm" proof="" />
+    <device checked="" deviceKey="7" deviceText="Automatic Sprinkler System" proof="" />
+    <device checked="" deviceKey="8" deviceText="Connected Gas Leakage Detector" proof="" />
+    <device checked="" deviceKey="9" deviceText="Connected Generator" proof="" />
+    <device checked="" deviceKey="10" deviceText="Connected Thermostat" proof="" />
+  </peril>
+  <peril deviceCount="5" perilType="theft">
+    <device checked="" deviceKey="0" deviceText="Data Share" proof="" />
+    <device checked="" deviceKey="4" deviceText="Connected Burglar Alarm" proof="" />
+    <device checked="1" deviceKey="5" deviceText="Professionally Monitored Burglar Alarm" proof="" />
+    <device checked="" deviceKey="6" deviceText="Connected and Professionally Monitored Burglar Alarm" proof="" />
+    <device checked="" deviceKey="11" deviceText="Connected Video Doorbell" proof="" />
+  </peril>
+  <peril deviceCount="5" perilType="water">
+    <device checked="" deviceKey="0" deviceText="Data Share" proof="" />
+    <device checked="" deviceKey="9" deviceText="Connected Generator" proof="" />
+    <device checked="" deviceKey="10" deviceText="Connected Thermostat" proof="" />
+    <device checked="" deviceKey="12" deviceText="Connected Water Sensor with Automatic Shut-Off" proof="" />
+    <device checked="" deviceKey="13" deviceText="Connected Water Sensor without Automatic Shut-Off" proof="" />
+  </peril>
+  <sharedDataQuestion sharedDataText="Share data from one or more device(s) above" />
+</secureHomeQuestions>
